@@ -6,10 +6,6 @@ class Ramais
 {
     private $ramalBancoDados;
 
-    public function __construct()
-    {
-        
-    }
 
     public function getRamais()
     {

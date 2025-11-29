@@ -7,7 +7,7 @@ $ramais = file('ramais');
 $filas = file('filas');
 $status_ramais = array();
 foreach($filas as $linhas){
-    if(strstr($linhas,'SIP/')){
+    if(strstr($linhas, 'SIP/')){
         $linha = explode(' ', trim($linhas));
         list($tech,$ramal) = explode('/',$linha[0]);
 
